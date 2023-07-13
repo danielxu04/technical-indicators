@@ -7,7 +7,6 @@
 
 # Import libraries
 import yfinance as yf
-import matplotlib.pyplot as plt
 
 # ADD_MACD_COLUMNS - adds columns to DataFrame df regarding MACD. Takes in 3 more 
 #   parameters, moving average spans for slow, fast, and signal.
