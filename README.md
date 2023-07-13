@@ -19,6 +19,21 @@ In this second graph (AMZN, Nov-Feb 2022-2023) the MACD line cuts the signal lin
   <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/dd456618-2e69-49c4-8a0f-ec1bacbd27d4" width="65%" height="550px" />
 </div>
 <br /><br />
-Due to its reputation for giving false positives - especially during a sideways market - this indicator is typically used in conjunction with other indicators. It is also noteworthy that MACD is a lagging indicator, meaning that it trails behind price action. Thus, it can confirm trends, but is by no means a predictive indicator.
+Due to its reputation for giving false positives - especially during a sideways market - this indicator is typically used in conjunction with other indicators. It is also noteworthy that MACD is a lagging indicator, meaning that it trails behind price action. Thus, it can confirm trends, but is by no means a predictive indicator.<br /><br />
 
+## 2. ATR - Average True Range
 
+ATR is a volatility based indicator. ATR focuses on total price movement, and helps visualize how volatile the market is as it moves. Specifically, ATR takes into account price movements in each period by considering:<br />
+- High/Low difference of each period
+- High/Previous Close difference
+- Low/Previous Close difference
+<br />
+Also, ATR is most commonly associated with a 9 period, with the choice of either simple MA or exponential MA.
+<br /><br />
+By analyzing the price chart of GOOG stock from November 2022 to July 2023 using 1-day candlesticks, we observe the ATR graph, which showcases the greatest daily price range between the highest and lowest points. As seen at the intersection of dotted lines, the most volatile day in this period has a $5.15 USD high/low difference on February 9, 2023. This instance represents an exceptional case, but it underscores the significance of the ATR graph in accessing periods of heightened volatility. Employing the ATR graph enables investors to gauge market volatility, providing valuable insights for both short-term and long-term investment strategies, thereby enhancing their adaptability and effectiveness.
+<br /><br />
+<div align="center" border="black">
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/f72cd6d2-cd30-4637-b064-d5d87b78c0dc" width="85%" height="550px" />
+</div>
+<br /><br />
+Note that the ATR technical indicator is usually combined with other volitility indicators, such as the Bollinger Bands indicator, an indicator that approaches the notion of market volatility from a different angle.<br /><br /> 
