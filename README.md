@@ -4,16 +4,17 @@ A Python-based collection of technical indicators for financial analysis. Whethe
 
 ## 1. MACD - Moving Average Convergence Divergence
 
+
 MACD is a momentum indicator calculated by taking the difference of two set moving averages of a specific asset price. Usually, we use a fast-length 12 MA and a slow-length 26 MA. <br /><br />
 This technical indicator uses the MACD line to calculate another moving average, depicted by the <strong>signal line</strong>, which operates on a 9 period. If the MACD line cuts the signal line from below, it indicates a bullish period; if the signal line is cut from above, a bearish period is represented. This is often referred to as the 'crossover strategy'. In the graphs below, the **orange line** is the **signal line**, and the **blue line** is the **MACD line**. <br /> <br />
-The first graph (AMZN, Jan-Apr 2023) demonstrates a correct prediction made by our MACD indicator. The signal line being cut from above, centered upon by the dotted line, demonstrates a bearish period. In this case, this indicator represents a valid analysis, as we see stock fall by 25% over a prolonged period of time. <br /><br />
+The first graph (AMZN, Jan-Apr 2023) demonstrates a correct prediction made by our MACD indicator. The signal line being cut from above (centered upon by the dotted lines) indicates a bearish period. In this case, this indicator elucidates market trends, as we see stock price fall drastically over a prolonged period of time. <br /><br />
 <div align="center" border="black">
-  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/f0db1590-b67a-4e73-a351-921552c48834" width="65%" height="550px" />
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/43eaafa3-d3f7-4f6e-9ebe-1ed6d9edb3ef" width="65%" height="550px" />
 </div>
 
 
 <br /><br />
-In this second graph (AMZN, Nov-Feb 2022-2023) the MACD line cuts the signal line from below (indicated by the intersection of the dotted lines), where we see an abrupt increase in stock price, but it would not be classified as a bullish period due to its short duration. Subsequently, after 0.5 weeks, we observe in the visualization that the MACD line cuts the signal line from above, resulting in a bearish period. 
+In this second graph (AMZN, Nov-Feb 2022-2023) the MACD line cuts the signal line from below (indicated by the intersection of the dotted lines), where we see an abrupt increase in stock price. However, this is not classified as a bullish period due to its short duration. Subsequently, we observe the MACD line cutting the signal line from above, resulting in a bearish period. 
 <br /><br />
 <div align="center" border="black">
   <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/dd456618-2e69-49c4-8a0f-ec1bacbd27d4" width="65%" height="550px" />
