@@ -9,8 +9,6 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-fig, ax = plt.subplots()
-
 # ADD_MACD_COLUMNS - adds columns to DataFrame df regarding MACD. Takes in 3 more 
 #   parameters, moving average spans for slow, fast, and signal.
 def add_macd_columns(df, slow, fast, signal):
@@ -18,7 +16,7 @@ def add_macd_columns(df, slow, fast, signal):
     df_copy['Fast MA'] = df_copy['Adj Close'].ewm(span=fast, min_periods=fast).mean()
     df_copy['Slow MA'] = df_copy['Adj Close'].ewm(span=slow, min_periods=slow).mean()
     df_copy['MACD'] = df_copy['Fast MA'] - df_copy['Slow MA']
-    df_copy['Signal'] = df_copy['Adj Close'].ewm(span=signal, min_periods=signal).mean()
+    df_copy['Signal'] = df_copy['MACD'].ewm(span=signal, min_periods=signal).mean()
 
     return df_copy.loc[:,['MACD', 'Signal']]
 
@@ -34,6 +32,3 @@ for t in tickers:
     
 for stock in stock_data:
     stock_data[stock][['MACD', 'Signal']] = add_macd_columns(stock_data[stock], 26, 12, 9)
-    ax.set(title="MACD Indicator for {}".format(stock), xlabel="Time", ylabel="Stock Price")
-    plt.plot(stock_data[stock][['Close']])
-    
