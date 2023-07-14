@@ -38,3 +38,13 @@ By analyzing the price chart of GOOG stock from November 2022 to July 2023 using
 </div>
 <br /><br />
 Note that the ATR technical indicator is usually combined with other volitility indicators, such as the Bollinger Bands indicator, an indicator that approaches the notion of market volatility from a different angle.<br /><br /> 
+
+## 3. Bollinger Bands
+
+Bollinger Bands is another volatility indicator, which comprises of two lines, usually plotted 2 standard deviations from a 20 period simple moving average line. However, the number of standard deviations and period are variable (i.e. they are not always 2, 20). Visually, the bands will become wider during periods of increased volatility and shrink in response to reduced volatility. <br /><br />As mentioned in the ATR section, Bollinger Bands are usually used with ATR and/or other volatility based indicators, as they approach volatility with different perspectives.<br /><br />
+In this candlestick plot (1 day candlesticks) of AAPL stock from September 2022 to July 2023, we can see the Bollinger Bonds (the blue lines) in action. In periods of increased volatility, the bands become wider. Vise versa, the bands shrink, and become more narrow. Note that the orange line in the middle is the 20 period MA of stock price. <br /> <br />
+<div align="center" border="black">
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/6ff518da-a5e2-48f8-b04e-c9698d7702ce" width="95%" height="550px" />
+</div>
+<br /><br />
+
