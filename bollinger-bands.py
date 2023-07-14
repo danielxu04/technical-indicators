@@ -1,6 +1,6 @@
 # --------------------------------------------------------
 # Author: Daniel Xu
-# Date: 07/13/2023
+# Date: 07/14/2023
 # Description: A program that illustrates the technical indicator of Bollinger
 #   Bands using Python and Yahoo Finance
 # BB Calculation:
@@ -27,7 +27,7 @@ tickers = ['AMZN', 'AAPL', 'GOOG']
 stock_data = {}
 
 for t in tickers:
-    data = yf.download(t, period='1mo', interval='15m') # 15 minute candles
+    data = yf.download(t, period='1mo', interval='5m') # 5 minute candles
     data.dropna(how='any', inplace=True)
     stock_data[t] = data
     
