@@ -4,17 +4,17 @@ A Python-based collection of technical indicators for financial analysis. Whethe
 
 ## 1. MACD - Moving Average Convergence Divergence
 
-
-MACD is a momentum indicator calculated by taking the difference of two set moving averages of a specific asset price. Usually, we use a fast-length 12 MA and a slow-length 26 MA. <br /><br />
-This technical indicator uses the MACD line to calculate another moving average, depicted by the <strong>signal line</strong>, which operates on a 9 period. If the MACD line cuts the signal line from below, it indicates a bullish period; if the signal line is cut from above, a bearish period is represented. This is often referred to as the 'crossover strategy'. In the graphs below, the **orange line** is the **signal line**, and the **blue line** is the **MACD line**. <br /> <br />
-The first graph (AMZN, Jan-Apr 2023) demonstrates a correct prediction made by our MACD indicator. The signal line being cut from above (centered upon by the dotted lines) indicates a bearish period. In this case, this indicator elucidates market trends, as we see stock price fall drastically over a prolonged period of time. <br /><br />
+MACD, short for Moving Average Convergence Divergence, is a momentum indicator which calculates the disrepancy between two distinct moving averages of a particular asset's price. Typically, a fast-length 12-period moving average and a slow-length 26-period moving average are utilized in this calculation. <br /><br />
+This technical indicator further utilizes the MACD line to derive another moving average known as the <strong>signal line</strong>, which operates on a 9-period basis. By observing the interaction between the MACD line and the signal line, one can discern bullish and bearish periods. This is often referred to as the 'crossover strategy'. If the MACD line cuts the signal line from below, it indicates a bullish period; if the signal line is cut from above, a bearish period is represented.  In the graphical representations provided, the **signal line** is denoted by the distinctive **orange line**, while the **MACD line** is represented by the **blue line**. <br /> <br />
+The initial graph, focusing on the timeframe of January to April 2023 for the AMZN stock, exemplifies a successful prediction made by our MACD indicator. The bearish period is indicated by the signal line being crossed from above, which is visually highlighted by the dotted lines. In this particular case, the MACD indicator effectively elucidates the prevailing market trend, revealing a substantial and prolonged decline in the stock price.<br /><br />
 <div align="center" border="black">
   <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/43eaafa3-d3f7-4f6e-9ebe-1ed6d9edb3ef" width="75%" height="550px" />
 </div>
 
 
 <br /><br />
-In this second graph (AMZN, Nov-Feb 2022-2023) the MACD line cuts the signal line from below (indicated by the intersection of the dotted lines), where we see an abrupt increase in stock price. However, this is not classified as a bullish period due to its short duration. Subsequently, we observe the MACD line cutting the signal line from above, resulting in a bearish period. 
+In the subsequent graph, which spans from November 2022 to February 2023 for the AMZN stock, we observe the MACD line intersecting the signal line from below, as illustrated by the intersection of dotted lines. This occurence coincides with a sudden surge in the stock price. Despite this sharp increase, it is not categorized as a bullish period due to its limited duration.
+We proceed to observe the MACD line crossing the signal line from above, indicating the onset of a bearish period. This downward crossover signifies a shift in market sentiment and predicts a subsequent decline in stock price. 
 <br /><br />
 <div align="center" border="black">
   <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/dd456618-2e69-49c4-8a0f-ec1bacbd27d4" width="75%" height="550px" />
@@ -41,10 +41,29 @@ Note that the ATR technical indicator is usually combined with other volitility 
 
 ## 3. Bollinger Bands
 
-Bollinger Bands is another volatility indicator, which comprises of two lines, usually plotted 2 standard deviations from a 20 period simple moving average line. However, the number of standard deviations and period are variable (i.e. they are not always 2, 20). Visually, the bands will become wider during periods of increased volatility and shrink in response to reduced volatility. <br /><br />As mentioned in the ATR section, Bollinger Bands are usually used with ATR and/or other volatility based indicators, as they approach volatility with different perspectives.<br /><br />
-In this candlestick plot (1 day candlesticks) of AAPL stock from September 2022 to July 2023, we can see the Bollinger Bonds (the blue lines) in action. In periods of increased volatility, the bands become wider. Vise versa, the bands shrink, and become more narrow. Note that the orange line in the middle is the 20 period MA of stock price. <br /> <br />
+Bollinger Bands is another volatility indicator, which comprise of two lines that are typically plotted 2 standard deviations away (+, -) from a 20-period simple moving average line. However, it's important to note that the values for standard deviations and the period can vary and are not always fixed at 2 and 20, respectively. From a visual perspective, the bands widen during periods of heightened volatility and contract when volatility decreases. <br /><br />
+As previously mentioned in the ATR section, Bollinger Bands are commonly used in conjunction with ATR and other volatility-based indicators. Each indicator offers a distinct viewpoint on volatility, complementing one another in the analysis. <br /><br />
+In the candlestick plot provided, which displays AAPL stock from September 2022 to July 2023 with daily candlesticks, we can observe the effectiveness of Bollinger Bands (depicted by the blue lines). During periods of increased volatility, the bands expand, indicating wider price fluctuations. Conversely, the bands contract and become narrower during phases of reduced volatility. Note that the orange line in the middle represents the 20-period moving average of the stock price. 
+<br /> <br />
 <div align="center" border="black">
   <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/6ff518da-a5e2-48f8-b04e-c9698d7702ce" width="95%" height="550px" />
+</div>
+<br /><br />
+
+## 4. RSI - Relative Strength Index
+
+RSI is a momentum oscillator that measures the speed and change of price movements. The RSI value is expressed on a scale from 0-100; values below 30 indicate that the asset is oversold, whereas values above 70 correlate to assets reaching overbought territory. <br /><br />
+The RSI indicator helps traders and analysists identify potential trend reversals and assess the underlying strength/velocity of price movements. When the RSI surpasses the overbought threshold of 70, it suggests that the asset may be overvalued, and a price correction or trend reversal could occur. Conversely, when the RSI falls below the oversold threshold of 30, it indicates that the asset may be undervalued, potentially leading to a price recovery or trend reversal. <br /><br />
+The following formula illustrates the typical RSI calculation method: <br />
+```math
+ RSI \space (step \space one) = 100 - \left[ 100 \over {1 + {{Ave \space Gain} \over {Ave \space Loss}}} \right]
+\space \space \space RSI \space (step \space two) = 100 - \left[ 100 \over {1 + {{Previous \space Ave \space Gain * 13 + Current \space Gain} \over {Previous \space Ave \space Loss * 13 + Current \space Loss}}} \right]
+```
+<br />
+Presented below is a monthly chart spanning June-July 2023, illustrating the price movements of the MSFT stock, with an accompanying RSI graph. While no instances are observed where the RSI surpasses the 70 threshold, there are notable time intervals where the RSI dips below 30. During these periods, a significant decline in the stock price becomes apparent, and can be observed. 
+<br /> <br />
+<div align="center" border="black">
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/10327439-0a99-4dff-8047-c25890cc2c48" width="95%" height="550px" />
 </div>
 <br /><br />
 
