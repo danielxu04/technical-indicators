@@ -67,3 +67,19 @@ Presented below is a monthly chart spanning June-July 2023, illustrating the pri
 </div>
 <br /><br />
 
+## 4. ADX - Average Directional Index
+
+ADX is an indicator that aims to measure the strength of a trend. Similar to the RSI, its values range from 0-100, and strength is quantified as per the intervals listed below:
+- **0-25** : Absent/weak trend
+- **25-50** : Strong trend
+- **50-75** : Very strong trend
+- **75-100** : Extremely strong trend
+<br />
+ADX is represented by positive values as it is a non-directional indicator. The ADX value does not provide any information regarding the trend direction, but rather focuses solely on meausring the strength of the trend. Its calculation involves determining the positive and negative directional movements by comparing successive highs and lows, and then obtaining the smoothed average fo the differences between them. <br /><br />
+Here is a visualization of GOOG stock prices and its ADX graph for June-July 2023. Intuitively, a higher ADX correlates to a stronger and steeper trend, regardless of direction. In this graph, the highest ADX value is 54; very rarely, will there be a value in the 75-100 range.<br /><br />
+<div align="center" border="black">
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/216c50ba-db59-4724-b682-393b2f01214b" width="95%" height="550px" />
+</div>
+<br /><br />
+
+
