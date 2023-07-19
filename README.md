@@ -8,16 +8,14 @@ MACD, short for Moving Average Convergence Divergence, is a momentum indicator w
 This technical indicator further utilizes the MACD line to derive another moving average known as the <strong>signal line</strong>, which operates on a 9-period basis. By observing the interaction between the MACD line and the signal line, one can discern bullish and bearish periods. This is often referred to as the 'crossover strategy'. If the MACD line cuts the signal line from below, it indicates a bullish period; if the signal line is cut from above, a bearish period is represented.  In the graphical representations provided, the **signal line** is denoted by the distinctive **orange line**, while the **MACD line** is represented by the **blue line**. <br /> <br />
 The initial graph, focusing on the timeframe of January to April 2023 for the AMZN stock, exemplifies a successful prediction made by our MACD indicator. The bearish period is indicated by the signal line being crossed from above, which is visually highlighted by the dotted lines. In this particular case, the MACD indicator effectively elucidates the prevailing market trend, revealing a substantial and prolonged decline in the stock price.<br /><br />
 <div align="center" border="black">
-  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/43eaafa3-d3f7-4f6e-9ebe-1ed6d9edb3ef" width="75%" height="550px" />
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/a4de6758-27a2-4c52-87bd-90ee4bb73e44" width="87%" height="550px" />
 </div>
-
-
 <br /><br />
 In the subsequent graph, which spans from November 2022 to February 2023 for the AMZN stock, we observe the MACD line intersecting the signal line from below, as illustrated by the intersection of dotted lines. This occurence coincides with a sudden surge in the stock price. Despite this sharp increase, it is not categorized as a bullish period due to its limited duration.
 We proceed to observe the MACD line crossing the signal line from above, indicating the onset of a bearish period. This downward crossover signifies a shift in market sentiment and predicts a subsequent decline in stock price. 
 <br /><br />
 <div align="center" border="black">
-  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/dd456618-2e69-49c4-8a0f-ec1bacbd27d4" width="75%" height="550px" />
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/10913f5e-e90a-49c7-8655-15c4914dfa5b" width="87%" height="550px" />
 </div>
 <br /><br />
 Due to its reputation for giving false positives - especially during a sideways market - this indicator is typically used in conjunction with other indicators. It is also noteworthy that MACD is a lagging indicator, meaning that it trails behind price action. Thus, it can confirm trends, but is by no means a predictive indicator.<br /><br />
