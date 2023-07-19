@@ -8,16 +8,14 @@ MACD, short for Moving Average Convergence Divergence, is a momentum indicator w
 This technical indicator further utilizes the MACD line to derive another moving average known as the <strong>signal line</strong>, which operates on a 9-period basis. By observing the interaction between the MACD line and the signal line, one can discern bullish and bearish periods. This is often referred to as the 'crossover strategy'. If the MACD line cuts the signal line from below, it indicates a bullish period; if the signal line is cut from above, a bearish period is represented.  In the graphical representations provided, the **signal line** is denoted by the distinctive **orange line**, while the **MACD line** is represented by the **blue line**. <br /> <br />
 The initial graph, focusing on the timeframe of January to April 2023 for the AMZN stock, exemplifies a successful prediction made by our MACD indicator. The bearish period is indicated by the signal line being crossed from above, which is visually highlighted by the dotted lines. In this particular case, the MACD indicator effectively elucidates the prevailing market trend, revealing a substantial and prolonged decline in the stock price.<br /><br />
 <div align="center" border="black">
-  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/43eaafa3-d3f7-4f6e-9ebe-1ed6d9edb3ef" width="75%" height="550px" />
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/a4de6758-27a2-4c52-87bd-90ee4bb73e44" width="87%" height="550px" />
 </div>
-
-
 <br /><br />
 In the subsequent graph, which spans from November 2022 to February 2023 for the AMZN stock, we observe the MACD line intersecting the signal line from below, as illustrated by the intersection of dotted lines. This occurence coincides with a sudden surge in the stock price. Despite this sharp increase, it is not categorized as a bullish period due to its limited duration.
 We proceed to observe the MACD line crossing the signal line from above, indicating the onset of a bearish period. This downward crossover signifies a shift in market sentiment and predicts a subsequent decline in stock price. 
 <br /><br />
 <div align="center" border="black">
-  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/dd456618-2e69-49c4-8a0f-ec1bacbd27d4" width="75%" height="550px" />
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/10913f5e-e90a-49c7-8655-15c4914dfa5b" width="87%" height="550px" />
 </div>
 <br /><br />
 Due to its reputation for giving false positives - especially during a sideways market - this indicator is typically used in conjunction with other indicators. It is also noteworthy that MACD is a lagging indicator, meaning that it trails behind price action. Thus, it can confirm trends, but is by no means a predictive indicator.<br /><br />
@@ -67,7 +65,7 @@ Presented below is a monthly chart spanning June-July 2023, illustrating the pri
 </div>
 <br /><br />
 
-## 4. ADX - Average Directional Index
+## 5. ADX - Average Directional Index
 
 ADX is an indicator that aims to measure the strength of a trend. Similar to the RSI, its values range from 0-100, and strength is quantified as per the intervals listed below:
 - **0-25** : Absent/weak trend
@@ -82,4 +80,13 @@ Here is a visualization of GOOG stock prices and its ADX graph for June-July 202
 </div>
 <br /><br />
 
+## 6. Renko Chart
 
+The Renko chart is a special indicator, as it is a chart built using price movement without standardized time intervals (candlesticks). Price movements are fixed, and are represented as stacked boxes. A new box is added to the chart if the price moves by a variable amount in either direction. Renko charts have a time axis, but it is not based on a linear progression of time as seen in traditional candlestick charts. Instead, the time axis on a Renko chart remains uniform, as each new block is only added when the price surpasses a predefined threshold, known as 'brick size' or 'block size'. This feature of Renko charts makes them particularly useful for filtering out market noise and focusing solely on significant price movememnts. <br /><br />
+Traders often utilize Renko charts to identify trends, support and resistence levels, and potential trend reversals with enhanced clarity. Since the charts eliminate volaility and minor price fluctuations, they provide a smoother representation of market movements, revealing underlying trends more distinctively. As a result, traders can make well-informed decisions based on the true price direction, enhancing the accuracy of their technical analysis. <br /><br />
+However, it is important to note that Renko charts have a fixed brick size, so they may not capture sudden price spikes or sharp market reversals that occur within a short period. As such, they are best utilized in conjunction with other technical indicators and tools to gain a more comprehensive understanding of the market conditions. <br /><br />
+As seen in the Renko Chart for AMZN stock from December 2022 to July 2023, time is not visualized in uniform intervals. For instance, as represented on the graph, there are only 5 boxes from Jan-Feb, whereas Feb-Mar has 8 boxes. In this chart, a new box is stacked every time stock encounters a difference of $3. When analyzing a Renko chart, more boxes in a condensed time interval imply drastic volatility; lower frequency of boxes imply a smaller range/volatility. More specifically, Apr-May had only 3 boxes, whereas Feb-Mar had 8 boxes, effectively illustrating stock price volatility during these time intervals: small increases from Apr-May, drastic increases and decreases from Feb-Mar. <br /><br />
+<div align="center" border="black">
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/5c67abfb-a603-4db5-870b-cf4082e350fb" width="95%" height="550px" />
+</div>
+<br /><br />
