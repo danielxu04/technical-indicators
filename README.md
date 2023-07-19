@@ -82,4 +82,13 @@ Here is a visualization of GOOG stock prices and its ADX graph for June-July 202
 </div>
 <br /><br />
 
+## 6. Renko Chart
 
+The Renko chart is a special indicator, as it is a chart built using price movement without standardized time intervals (candlesticks). Price movements are fixed, and are represented as stacked boxes. A new box is added to the chart if the price moves by a variable amount in either direction. Renko charts have a time axis, but it is not based on a linear progression of time as seen in traditional candlestick charts. Instead, the time axis on a Renko chart remains uniform, as each new block is only added when the price surpasses a predefined threshold, known as 'brick size' or 'block size'. This feature of Renko charts makes them particularly useful for filtering out market noise and focusing solely on significant price movememnts. <br /><br />
+Traders often utilize Renko charts to identify trends, support and resistence levels, and potential trend reversals with enhanced clarity. Since the charts eliminate volaility and minor price fluctuations, they provide a smoother representation of market movements, revealing underlying trends more distinctively. As a result, traders can make well-informed decisions based on the true price direction, enhancing the accuracy of their technical analysis. <br /><br />
+However, it is important to note that Renko charts have a fixed brick size, so they may not capture sudden price spikes or sharp market reversals that occur within a short period. As such, they are best utilized in conjunction with other technical indicators and tools to gain a more comprehensive understanding of the market conditions. <br /><br />
+As seen in the Renko Chart for AMZN stock from December 2022 to July 2023, time is not visualized in uniform intervals. For instance, as represented on the graph, there are only 5 boxes from Jan-Feb, whereas Feb-Mar has 8 boxes. In this chart, a new box is stacked every time stock encounters a difference of $3. When analyzing a Renko chart, more boxes in a condensed time interval imply drastic volatility; lower frequency of boxes imply a smaller range/volatility. More specifically, Apr-May had only 3 boxes, whereas Feb-Mar had 8 boxes, effectively illustrating stock price volatility during these time intervals: small increases from Apr-May, drastic increases and decreases from Feb-Mar. <br /><br />
+<div align="center" border="black">
+  <img src="https://github.com/danielxu04/technical-indicators/assets/106186118/5c67abfb-a603-4db5-870b-cf4082e350fb" width="95%" height="550px" />
+</div>
+<br /><br />
