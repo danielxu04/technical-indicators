@@ -67,7 +67,7 @@ Presented below is a monthly chart spanning June-July 2023, illustrating the pri
 </div>
 <br /><br />
 
-## 4. ADX - Average Directional Index
+## 5. ADX - Average Directional Index
 
 ADX is an indicator that aims to measure the strength of a trend. Similar to the RSI, its values range from 0-100, and strength is quantified as per the intervals listed below:
 - **0-25** : Absent/weak trend
