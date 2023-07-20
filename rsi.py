@@ -1,6 +1,6 @@
 # --------------------------------------------------------
 # Author: Daniel Xu
-# Date: 07/14/2023
+# Date: 07/17/2023
 # Description: A program that computes Relative Strength Index technical indicator
 #   for various stocks
 # RSI Algorithm:

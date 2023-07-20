@@ -1,6 +1,6 @@
 # --------------------------------------------------------
 # Author: Daniel Xu
-# Date: 07/14/2023
+# Date: 07/19/2023
 # Description: A program that converts candlestick data into Renko Chart data
 #   for AMZN, GOOG, AAPL
 # --------------------------------------------------------
